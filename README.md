@@ -7,4 +7,4 @@ Get your device's location with Vanilla JavaScript and the MapBox API.
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ### Demo
-Checkout the project [here](https://mattbanuag.github.io/location-tracker/) 
+Checkout the project [here](https://mattbanuag.github.io/gps/) 

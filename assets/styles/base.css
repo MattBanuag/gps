@@ -29,10 +29,6 @@ html {
    -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  height: 100vh;
-}
-
 ul, ol {
   list-style: none;
 }

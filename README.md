@@ -1,4 +1,4 @@
-# Location Tracker
+# GPS
 Get your device's location with Vanilla JavaScript and the MapBox API. 
 
 ### Languages

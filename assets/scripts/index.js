@@ -41,9 +41,15 @@ function errorHandler(error) {
     console.log(error.message);
 }
 
+/*
+    The watchPosition() method is used to register a handler function
+    that will be called automatically each time the position of the 
+    device changes
+*/
+
 function validate() {
     if(navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(getLocation, errorHandler, options);
+        navigator.geolocation.watchPosition(getLocation, errorHandler, options);
     } else {
         console.log('Geolocation is not supported by your browser');
     }

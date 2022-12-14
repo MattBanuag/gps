@@ -20,13 +20,13 @@ const map = new mapboxgl.Map({
 });
 
 // FUNCTIONS
-function mapSettings() {
-    map.dragPan.disable();
-    map.keyboard.disable();
-    map.scrollZoom.disable();
-    map.doubleClickZoom.disable();
-    map.touchZoomRotate.disable();
-}
+// function mapSettings() {
+//     map.dragPan.disable();
+//     map.keyboard.disable();
+//     map.scrollZoom.disable();
+//     map.doubleClickZoom.disable();
+//     map.touchZoomRotate.disable();
+// }
 
 function getLocation(position) {
     const { longitude, latitude } = position.coords;
